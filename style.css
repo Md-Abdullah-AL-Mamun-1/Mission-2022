@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.line{
+    border-left: 7px solid gold;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+span{
+    color: limegreen;
+}
+.flexible{
+    display: flex;
+    margin: 80px;
+}
+.width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.Ancore{
+    text-decoration: none;
+    background-image: linear-gradient(brown, orange);
+    padding: 10px 30px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+
+.text{
+    text-align: center;
+}
+.customize{
+    color: darkblue;
+}
+.Mission-item{
+    width: 20%;
+    margin-left: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 10px 10px 10px white;
+    border-radius: 20px;
+}
+.Mission-item img{
+    width: 60%;
+}
+.paint1{
+    background-color:rgb(211, 237, 255);
+}
+.paint2{
+    background-color: rgb(255, 237, 240);
+}
+.paint3{
+    background-color: bisque;
+}
+
+
+.resize{
+    width: 90%;
+}
+
+
+.extra-item{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+}
+.extra-item img{
+    width: 50%;
+}
+#one{
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image: linear-gradient(cyan, yellow);
+    border-image-slice: 1;
+}
+#two{
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 200px;
+}
